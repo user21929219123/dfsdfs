@@ -1,79 +1,82 @@
-body {
-    font-family: sans-serif;
-    background-color: azure;
-}
-header{
-text-align: center;
-background-color: #0776A0;
+/* CSS styles */
+h1 {
+font-family: Impact, sans-serif;
+color: #CE5937;
+background-color:white;
+border:5px solid #CE5937;
+border-radius:10px;
+padding:1%;
+width:68%;
 
 }
-footer{
-background-color:#024C68 ;
-margin-top:36px;
-color:white;
-}
-r.{  
-position: absolute;
-width: 380px;
-height: 250px;
-left: 540px;
-top: 235px;   
-}
-t.{
-position: absolute;
-width: 200px;
-height: 250px;
-left: 310px;
-top: 235px;
-}
-p.{
-position: absolute;
-width: 380px;
-height: 250px;
-left: 540px;
-top: 235px;
-}
-h.{
-    
-position: absolute;
-width: 536px;
-height: 66px;
-left: 42px;
-top: 545px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 44px;
-
-color: #FF2C00;
-
+img{
+width:70%;
+border:5px solid #CE5937;
+border-radius:10px
 
 }
-j.{
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 48px;
-line-height: 59px;
-  
+body{
+background-image: url(https://i.imgur.com/1TZjxv6.png);
+
 }
-g.{
 
+p{
+width:68%;
+font-family: Impact, sans-serif;
+font-size:17px;
+color: #CE5937;
+background-color:white;
+border:5px solid #CE5937;
+border-radius:10px;
+padding:1%;
 
-width: 87px;
-height: 47.8px;
-left: 24px;
-top: 26.1px;
+}
+span{
+font-size:19px;
+color:darkred;
+}
+.iksweb{
+display:inline-block;
+cursor: pointer;
+font-size:19px;
+text-decoration:none;
+margin-top: 10px;
+padding:10px 16px;
+color: #CE5937;
+background-color:white;
+border-radius:12px;
+border:4px solid #424242;}
 
-font-family: Peralta;
-font-style: normal;
-font-weight: lighter;
-font-size: 36px;
-line-height: 47px;
+.iksweb:hover{
+background:white;
+color:rgb(21,13,36);
+border:4px solid rgb(21,13,36);
+transition: all 0.2s ease;
+padding:15px 20px;
+font-size:20px;
+}
+ 
+.top_panel{
 
-color: #000000;
+display:block;
+border:4px solid #424242;
+background-color:white;
+border-radius:12px;
+position: sticky;
+padding:2% 2%;
+font-family: Impact, sans-serif;
+width:67%;
+}
+p:hover{
+background:white;
+border:4px solid ;
+transition: all 0.2s ease;
+padding:15px 20px;
+font-size:20px;
+}
 
-
+img:hover{
+border:4px solid #CE5937;
+transition: all 0.2s ease;
+width:75%;
 }
